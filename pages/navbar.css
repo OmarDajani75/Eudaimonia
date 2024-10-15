@@ -4,7 +4,11 @@
 
 body,
 header,
-.navbar {
+.navbar,
+#skills,
+#projects,
+#quote,
+#finale {
   background-color: #4E6C50;
 }
 
@@ -39,8 +43,4 @@ p {
   height: auto;
   align-items: center;
   justify-content: flex-end;
-}
-
-#skills {
-  background-color: #4E6C50;
 }
