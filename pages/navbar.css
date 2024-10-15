@@ -1,5 +1,46 @@
-.dela-gothic-one-regular {
-  font-family: "Dela Gothic One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+* {
+  box-sizing: border-box;
+}
+
+body,
+header,
+.navbar {
+  background-color: #4E6C50;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #B6BE9C;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.nav-link:hover,
+.nav-link:active {
+  color: #C97D60;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+h2 {
+  color: #C97D60;
+}
+
+p {
+  color: #B6BE9C; 
+}
+
+.img-fluid {
+  display: flex;
+  max-width: 80%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#skills {
+  background-color: #4E6C50;
 }
