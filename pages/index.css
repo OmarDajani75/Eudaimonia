@@ -18,7 +18,7 @@ header,
 
 .navbar-brand,
 .nav-link {
-  color: #B6BE9C;
+  color: #C97D60;
   transition: all 0.3s ease;
   font-size: larger;
   font-family: "Fugaz One";
@@ -27,8 +27,16 @@ header,
 .navbar-brand:hover,
 .navbar-brand:active,
 .nav-link:hover,
-.nav-link:active {
-  color: #C97D60;
+.nav-link:active,
+.badge-pill:hover,
+.badge-pill:active {
+  color: #B6BE9C;
+}
+
+.badge-pill {
+  color: #4E6C50;
+  background-color: #C97D60;
+  font-family: "Fugaz One";
 }
 
 /* Specifically started off as just Hero CSS, but now applies to site as a whole */
@@ -66,6 +74,7 @@ img {
 li {
   font-size: larger;
   font-family: "Paytone One";
+  color: #B6BE9C;
 }
 
 /* Projects CSS */
