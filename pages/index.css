@@ -65,6 +65,15 @@ img {
 
 li {
   font-size: larger;
+  font-family: "Paytone One";
+}
+
+/* Projects CSS */
+
+.card-title,
+.btn-secondary {
+  color: #C97D60;
+  font-family: "Fugaz One"; 
 }
 
 /* Bottom half-specific CSS */
